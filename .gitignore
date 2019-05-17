@@ -1,0 +1,15 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/app
+app.so
+app.dylib
+app.dll
+app.a
+app.lib
+app-test-*
+*.exe
+*.o
+*.obj
+*.lst

@@ -1,0 +1,14 @@
+{
+	"authors": [
+		"Doug Clayton"
+	],
+	"copyright": "Copyright © 2019, Doug Clayton",
+    "description": "A working Triangle Example from https://vulkan-tutorial.com",
+    "license": "Open Source",
+    "mainSourceFile": "source/app.d",
+    "name": "triangle",
+    "targetName": "app",
+    "targetPath": "bin/",
+    "targetType": "executable",
+    "workingDirectory": "temp/"
+}
