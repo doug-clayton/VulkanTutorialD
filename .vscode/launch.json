@@ -7,14 +7,8 @@
         {
             "name": "(Windows) Debug",
             "type": "cppvsdbg",
-            "request": "launch",
-            "program": "${workspaceFolder}/bin/app.exe",
-            "args": ["-gc"],
-            "stopAtEntry": false,
-            "cwd": "${workspaceFolder}",
-            "environment": [],
-            "externalConsole": true,
-            "preLaunchTask": "build-debug"
+            "request": "attach",
+            "processId":"${command:pickProcess}"
         }
     ]
 }
