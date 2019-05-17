@@ -13,7 +13,7 @@ The code in this example stops at https://vulkan-tutorial.com/Drawing_a_triangle
 * You may need to make some changes in order to get everything working on other platforms. 
     * The static libraries in "libs" and the dynamic libraries in "bin" will definitely need to be swapped out for the platform specific versions.
 
-#Requirementss
+#Requirements
 * DMD 2.086.0 or higher
 * DUB 1.11.0 or higher
 * Vulkan 1.1.106.0 or higher compatible drivers and a compatible video card
