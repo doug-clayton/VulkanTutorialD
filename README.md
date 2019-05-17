@@ -29,7 +29,7 @@ The code in this example stops at https://vulkan-tutorial.com/Drawing_a_triangle
 * Update the two strings in resources\shaders\compile.bat to point to glslangValidator.exe on your machine. (E.g., "C:\VulkanSDK\VersionNumber\Bin\glslangValidator.exe") This will allow you to convert GLSL shaders to SPIRV.
 
 * To build the project from command line, at the top level folder, use this command: "dub build --build=debug"
-* To debug in Visual Studio Code, please install the "Native Debug" extension and either the "Dlang" or D "Programming Language (code-d)" extension to support debugging with the cppvsdbg.
+* To debug in Visual Studio Code, please toggle the "Allow Breakpoints Everywhere" setting on and install either the "Dlang" or D "Programming Language (code-d)" extension to support debugging with the cppvsdbg.
     * The app already has a launch.json and tasks.json set up to debug.
 * Run app.exe in the bin folder and you should hopefully see a window with a triangle in it.
 * Happy coding!
