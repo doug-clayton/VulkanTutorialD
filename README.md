@@ -1,5 +1,5 @@
 # Triangle Example with D Language (dlang) and Vulkan 1.1.106.0
-# May 17th 2019
+May 17th 2019
 
 This example app shows how you can use Vulkan with the D language to create your own applications!
 All of the code has been adapted from the wonderful tutorial at: https://vulkan-tutorial.com
