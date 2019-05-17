@@ -6,6 +6,8 @@ All of the code has been adapted from the wonderful tutorial at: https://vulkan-
 
 The code in this example stops at https://vulkan-tutorial.com/Drawing_a_triangle/Swap_chain_recreation because I didn't want to force anyone to reuse my math libraries or any of my other custom code to get this running.
 
+![Example Image](/example.png)
+
 #Notes
 * This has only been tested on Windows 10, as this is the only OS I run. 
 * You may need to make some changes in order to get everything working on other platforms. 
