@@ -8,21 +8,22 @@ The code in this example stops at https://vulkan-tutorial.com/Drawing_a_triangle
 
 ![Example Image](/example.png)
 
-#Notes
+## Notes
 * This has only been tested on Windows 10, as this is the only OS I run. 
 * You may need to make some changes in order to get everything working on other platforms. 
     * The static libraries in "libs" and the dynamic libraries in "bin" will definitely need to be swapped out for the platform specific versions.
 
-#Requirements
+## Requirements
 * DMD 2.086.0 or higher
 * DUB 1.11.0 or higher
 * Vulkan 1.1.106.0 or higher compatible drivers and a compatible video card
+* Vulkan SDK 1.1.106.0 https://vulkan.lunarg.com
 
-# Third Party Bindings created for this project (using DStep + manual changes):
+## Third Party Bindings created for this project (using DStep + manual changes):
 * GLFW 3.3 https://www.glfw.org
 * Vulkan SDK 1.1.106.0 https://vulkan.lunarg.com
 
-#Instructions for use
+## Instructions for use
 * Make sure that the GLFW.dll and all of the VK layer files are located in the output directory! (Currently "bin/")
 * Make sure that the libglfw3dll.a and vulkan-1.lib files are located in the "libs" directory.
 * Update the two strings in resources\shaders\compile.bat to point to glslangValidator.exe on your machine. (E.g., "C:\VulkanSDK\VersionNumber\Bin\glslangValidator.exe") This will allow you to convert GLSL shaders to SPIRV.
