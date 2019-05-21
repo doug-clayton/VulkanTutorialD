@@ -9,7 +9,7 @@
             "type": "cppvsdbg",
             "request": "launch",
             "preLaunchTask": "build-debug",
-            "program": "${workspaceRoot}/bin/engine.exe",
+            "program": "${workspaceRoot}/bin/app.exe",
             "cwd": "${workspaceRoot}/bin/"
         }
     ]
