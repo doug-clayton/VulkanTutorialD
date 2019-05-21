@@ -5,10 +5,12 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "(Windows) Debug",
+            "name": "(Windows) Launch",
             "type": "cppvsdbg",
-            "request": "attach",
-            "processId":"${command:pickProcess}"
+            "request": "launch",
+            "preLaunchTask": "build-debug",
+            "program": "${workspaceRoot}/bin/engine.exe",
+            "cwd": "${workspaceRoot}/bin/"
         }
     ]
 }
