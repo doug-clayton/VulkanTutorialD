@@ -10,5 +10,13 @@
     "targetName": "app",
     "targetPath": "bin/",
     "targetType": "executable",
-    "workingDirectory": "temp/"
+    "workingDirectory": "temp/",
+    "sourcePaths": [
+        "source",
+        "glfw",
+        "vulkan"
+    ],
+    "importPaths": [
+        "."
+    ]
 }

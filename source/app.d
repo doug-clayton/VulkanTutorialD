@@ -408,8 +408,8 @@ private:
 
         ThrowIfFailed(vkCreateDevice(physicalDevice, &createInfo, null, &device), "failed to create logical device!");
 
-        vkGetDeviceQueue(device, indices.graphicsFamily, 0, &graphicsQueue);
-        vkGetDeviceQueue(device, indices.presentFamily, 0, &presentQueue);
+        vkGetDeviceQueue(device, indices.graphicsFamily.get, 0, &graphicsQueue);
+        vkGetDeviceQueue(device, indices.presentFamily.get, 0, &presentQueue);
         debug writeln("created logical Device!");
     }
 
